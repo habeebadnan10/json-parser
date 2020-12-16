@@ -76,3 +76,7 @@ function parseObj(jstring){
   }
   return output;
 }
+
+let parsedJSON = JSONParser('[1,2]');
+
+console.log(parsedJSON);
